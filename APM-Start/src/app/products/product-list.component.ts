@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-// import { FormsModule } from "@angular/forms";
 
 @Component({
     selector: 'pm-products',
@@ -11,7 +10,7 @@ export class ProductListComponent {
     imageMargin: number = 2;
     showImage: boolean = false;
     listFilter: string = 'cart';
-    
+
     products: any[] = [
       {
         "productId": 2,
